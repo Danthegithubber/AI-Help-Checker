@@ -21,12 +21,12 @@ const features = [
 
 export const WelcomePage = (): JSX.Element => {
   return (
-    <div className="flex flex-col h-[812px] items-center gap-5 bg-white">
-      <header className="w-[375px] h-11">
+    <div className="flex flex-col min-h-screen max-w-md mx-auto items-center gap-5 bg-white px-8">
+      <header className="w-full h-11">
         <img className="w-full h-full" alt="Status bar" src="/status-bar.svg" />
       </header>
 
-      <main className="flex flex-col w-[311px] items-center justify-center gap-8 pb-0 pt-0 px-0">
+      <main className="flex flex-col w-full items-center justify-center gap-8 pb-0 pt-0 px-0">
         <img
           className="w-24 h-24"
           alt="AI Help Checker Logo"
@@ -70,7 +70,7 @@ export const WelcomePage = (): JSX.Element => {
         </section>
       </main>
 
-      <footer className="flex flex-col w-[311px] items-start gap-3 pt-8">
+      <footer className="flex flex-col w-full items-start gap-3 pt-8 pb-8">
         <Button className="w-full h-14 bg-black text-white rounded-[14px] [font-family:'Arimo',Helvetica] font-normal text-sm tracking-[0] leading-5 hover:bg-black/90">
           Continue
         </Button>
