@@ -1,0 +1,36 @@
+name: ai_help_checker
+description: "AI Help Checker - Get instant, accurate feedback on your questions powered by advanced AI"
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  go_router: ^14.0.0
+  flutter_svg: ^2.0.0
+  http: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_linter: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/logo.svg
+    - assets/images/icon-1.svg
+    - assets/images/icon-2.svg
+    - assets/images/icon-3.svg
+    - assets/images/status-bar.svg
+
+  fonts:
+    - family: Arimo
+      fonts:
+        - asset: assets/fonts/Arimo-Regular.ttf
+          weight: 400
